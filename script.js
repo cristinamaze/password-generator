@@ -43,10 +43,10 @@ function generatePassword() {
       //Loop if no variables are chosen//
       while (numberChoice === false && symbolChoice === false && lowercaseChoice === false && uppercaseChoice === false) {
         alert("You must choose at least one parameter");
-        var numberChoice = confirm("Would you like to include number values?"); 
-        var symbolChoice = confirm("Would you like to include symbols?");   
-        var lowercaseChoice = confirm("Would you like to include lowercase values?");
-        var uppercaseChoice = confirm("Would you like to include uppercase values?"); 
+//         var numberChoice = confirm("Would you like to include number values?"); 
+//         var symbolChoice = confirm("Would you like to include symbols?");   
+//         var lowercaseChoice = confirm("Would you like to include lowercase values?");
+//         var uppercaseChoice = confirm("Would you like to include uppercase values?"); 
     } 
 
      //Concat variable options//
